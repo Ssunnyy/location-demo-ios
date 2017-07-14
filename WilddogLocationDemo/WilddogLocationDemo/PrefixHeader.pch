@@ -1,0 +1,87 @@
+//
+//  PrefixHeader.pch
+//  WilddogLocationDemo
+//
+//  Created by problemchild on 2017/7/7.
+//  Copyright © 2017年 wilddog. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+@import WilddogLocation;
+@import WilddogSync;
+@import WilddogCore;
+
+#import "SDKManager.h"
+#import <MAMapKit/MAMapKit.h>
+#import <AMapFoundationKit/AMapFoundationKit.h>
+#import "WDButton.h"
+
+#define kThemeColor [UIColor colorWithRed:0.902 green:0.314 blue:0.118 alpha:1.000]
+#define kHilitedOrange [UIColor colorWithRed:0.919 green:0.488 blue:0.359 alpha:1.000]
+#define kHilitedGray   [UIColor colorWithWhite:0.769 alpha:0.200]
+
+#define kScreenWidth  [UIScreen mainScreen].bounds.size.width
+#define kScreenHeight [UIScreen mainScreen].bounds.size.height
+
+#define kScreenScaleWidthWith6(x)   (kScreenWidth/375 * x)
+#define kScreenScaleHeightWith6(x)  (kScreenHeight/667 * x)
+
+#define kViewWidth(v)            v.frame.size.width
+#define kViewHeight(v)           v.frame.size.height
+#define kViewX(v)                v.frame.origin.x
+#define kViewY(v)                v.frame.origin.y
+#define kViewMaxX(v)             (v.frame.origin.x + v.frame.size.width)
+#define kViewMaxY(v)             (v.frame.origin.y + v.frame.size.height)
+#define kViewCenterX(v)          v.center.x
+#define kViewCenterY(v)          v.center.y
+
+#define kRectX(f)                f.origin.x
+#define kRectY(f)                f.origin.y
+#define kRectWidth(f)            f.size.width
+#define kRectHeight(f)           f.size.height
+
+#define kRectSetWidth(f, w)      CGRectMake(kRectX(f), kRectY(f), w            , kRectHeight(f))
+#define kRectSetHeight(f, h)     CGRectMake(kRectX(f), kRectY(f), kRectWidth(f), h             )
+#define kRectSetX(f, x)          CGRectMake(x        , kRectY(f), kRectWidth(f), kRectHeight(f))
+#define kRectSetY(f, y)          CGRectMake(kRectX(f), y        , kRectWidth(f), kRectHeight(f))
+#define kRectSetSize(f, w, h)    CGRectMake(kRectX(f), kRectY(f), w            , h             )
+#define kRectSetOrigin(f, x, y)  CGRectMake(x        , y        , kRectWidth(f), kRectHeight(f))
+#define kRect(x, y, w, h)        CGRectMake(x        , y        , w            , h             )
+
+#define kZeroRect                CGRectMake(0        , 0        , 0            , 0             )
+
+/**
+ *  设置阴影
+ *
+ *  @param view  要设置阴影的View
+ *  @param x     X偏移
+ *  @param y     Y偏移
+ *  @param alpha 透明度
+ *  @param blur  模糊度
+ *  @param color 颜色
+ *
+ */
+#define kSetLayerShadow(view,x,y,alpha,blur,color) view.layer.shadowOffset=CGSizeMake(x, y);view.layer.shadowColor=color.CGColor;view.layer.shadowRadius=blur;view.layer.shadowOpacity=alpha;
+
+/**
+ *  为按钮绑定点击方法
+ *
+ *  @param btn      按钮
+ *  @param function 方法
+ *
+ */
+#define kBTNsetAction(btn,function) [btn addTarget:self action:@selector(function) forControlEvents:UIControlEventTouchUpInside];
+
+
+
+
+
+
+
+
+#endif /* PrefixHeader_pch */

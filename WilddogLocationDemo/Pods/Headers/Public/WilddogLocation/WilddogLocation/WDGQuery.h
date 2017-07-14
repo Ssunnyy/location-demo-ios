@@ -1,0 +1,1 @@
+../../../../WilddogLocation/WilddogLocation.framework/Headers/WDGQuery.h

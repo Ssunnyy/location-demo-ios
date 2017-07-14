@@ -1,0 +1,6 @@
+framework module WilddogLocation {
+  umbrella header "WilddogLocation.h"
+
+  export *
+  module * { export * }
+}

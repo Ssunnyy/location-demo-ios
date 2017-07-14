@@ -1,0 +1,841 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		074D606F53A9C47527F1F26E /* libPods-WilddogLocationDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE2DD27B3A1084D0B2667D56 /* libPods-WilddogLocationDemoTests.a */; };
+		88448018DD858859F06C6559 /* libPods-WilddogLocationDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 579ED124417786DB4F843E68 /* libPods-WilddogLocationDemoUITests.a */; };
+		9518F0581F137D8300B15ADD /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9518F0571F137D8300B15ADD /* InfoViewController.m */; };
+		9518F05B1F14BB8A00B15ADD /* WDButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9518F05A1F14BB8A00B15ADD /* WDButton.m */; };
+		9518F05E1F14C4D200B15ADD /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 9518F05D1F14C4D200B15ADD /* Reachability.m */; };
+		954A698C1F0F7F5700A5DCA9 /* SDKManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 954A698B1F0F7F5700A5DCA9 /* SDKManager.m */; };
+		954A698E1F132ABD00A5DCA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 954A698D1F132ABD00A5DCA9 /* Assets.xcassets */; };
+		954A69921F1333BC00A5DCA9 /* RecordingPathViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 954A69911F1333BC00A5DCA9 /* RecordingPathViewController.m */; };
+		954A69961F133D1300A5DCA9 /* CircleQueryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 954A69951F133D1300A5DCA9 /* CircleQueryViewController.m */; };
+		954A69991F133E4F00A5DCA9 /* DEMOListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 954A69981F133E4F00A5DCA9 /* DEMOListView.m */; };
+		95E603CF1F0F2D3700142CC6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 95E603CE1F0F2D3700142CC6 /* main.m */; };
+		95E603D21F0F2D3700142CC6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95E603D11F0F2D3700142CC6 /* AppDelegate.m */; };
+		95E603D51F0F2D3700142CC6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95E603D41F0F2D3700142CC6 /* ViewController.m */; };
+		95E603D81F0F2D3700142CC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95E603D61F0F2D3700142CC6 /* Main.storyboard */; };
+		95E603DD1F0F2D3700142CC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95E603DB1F0F2D3700142CC6 /* LaunchScreen.storyboard */; };
+		95E603E81F0F2D3700142CC6 /* WilddogLocationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95E603E71F0F2D3700142CC6 /* WilddogLocationDemoTests.m */; };
+		95E603F31F0F2D3700142CC6 /* WilddogLocationDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95E603F21F0F2D3700142CC6 /* WilddogLocationDemoUITests.m */; };
+		95E604031F0F392B00142CC6 /* ChooseFunctionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95E604021F0F392B00142CC6 /* ChooseFunctionViewController.m */; };
+		95E604071F0F3C9500142CC6 /* ChooseFunction_BTN.m in Sources */ = {isa = PBXBuildFile; fileRef = 95E604061F0F3C9500142CC6 /* ChooseFunction_BTN.m */; };
+		95E6040B1F0F7E3F00142CC6 /* TracingPositionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95E6040A1F0F7E3F00142CC6 /* TracingPositionViewController.m */; };
+		F7F93A9EDEF4493BC940AE46 /* libPods-WilddogLocationDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 32C782783074C50ED0EF5E7B /* libPods-WilddogLocationDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		95E603E41F0F2D3700142CC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95E603C21F0F2D3700142CC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95E603C91F0F2D3700142CC6;
+			remoteInfo = WilddogLocationDemo;
+		};
+		95E603EF1F0F2D3700142CC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95E603C21F0F2D3700142CC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95E603C91F0F2D3700142CC6;
+			remoteInfo = WilddogLocationDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22D56E843824621DDFD92210 /* Pods-WilddogLocationDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WilddogLocationDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WilddogLocationDemoUITests/Pods-WilddogLocationDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		32C782783074C50ED0EF5E7B /* libPods-WilddogLocationDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WilddogLocationDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		579ED124417786DB4F843E68 /* libPods-WilddogLocationDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WilddogLocationDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FECAECA05E7B529BBA2B44A /* Pods-WilddogLocationDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WilddogLocationDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WilddogLocationDemo/Pods-WilddogLocationDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		9518F0561F137D8300B15ADD /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		9518F0571F137D8300B15ADD /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
+		9518F0591F14BB8A00B15ADD /* WDButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDButton.h; sourceTree = "<group>"; };
+		9518F05A1F14BB8A00B15ADD /* WDButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDButton.m; sourceTree = "<group>"; };
+		9518F05C1F14C4D200B15ADD /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		9518F05D1F14C4D200B15ADD /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		954A698A1F0F7F5700A5DCA9 /* SDKManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDKManager.h; sourceTree = "<group>"; };
+		954A698B1F0F7F5700A5DCA9 /* SDKManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDKManager.m; sourceTree = "<group>"; };
+		954A698D1F132ABD00A5DCA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		954A69901F1333BC00A5DCA9 /* RecordingPathViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordingPathViewController.h; sourceTree = "<group>"; };
+		954A69911F1333BC00A5DCA9 /* RecordingPathViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordingPathViewController.m; sourceTree = "<group>"; };
+		954A69941F133D1300A5DCA9 /* CircleQueryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleQueryViewController.h; sourceTree = "<group>"; };
+		954A69951F133D1300A5DCA9 /* CircleQueryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleQueryViewController.m; sourceTree = "<group>"; };
+		954A69971F133E4F00A5DCA9 /* DEMOListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEMOListView.h; sourceTree = "<group>"; };
+		954A69981F133E4F00A5DCA9 /* DEMOListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEMOListView.m; sourceTree = "<group>"; };
+		95E603CA1F0F2D3700142CC6 /* WilddogLocationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WilddogLocationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95E603CE1F0F2D3700142CC6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		95E603D01F0F2D3700142CC6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		95E603D11F0F2D3700142CC6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		95E603D31F0F2D3700142CC6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		95E603D41F0F2D3700142CC6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		95E603D71F0F2D3700142CC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		95E603DC1F0F2D3700142CC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		95E603DE1F0F2D3700142CC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95E603E31F0F2D3700142CC6 /* WilddogLocationDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WilddogLocationDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95E603E71F0F2D3700142CC6 /* WilddogLocationDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WilddogLocationDemoTests.m; sourceTree = "<group>"; };
+		95E603E91F0F2D3700142CC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95E603EE1F0F2D3700142CC6 /* WilddogLocationDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WilddogLocationDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95E603F21F0F2D3700142CC6 /* WilddogLocationDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WilddogLocationDemoUITests.m; sourceTree = "<group>"; };
+		95E603F41F0F2D3700142CC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95E604001F0F315F00142CC6 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = PrefixHeader.pch; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		95E604011F0F392B00142CC6 /* ChooseFunctionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseFunctionViewController.h; sourceTree = "<group>"; };
+		95E604021F0F392B00142CC6 /* ChooseFunctionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ChooseFunctionViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		95E604051F0F3C9500142CC6 /* ChooseFunction_BTN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseFunction_BTN.h; sourceTree = "<group>"; };
+		95E604061F0F3C9500142CC6 /* ChooseFunction_BTN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseFunction_BTN.m; sourceTree = "<group>"; };
+		95E604091F0F7E3F00142CC6 /* TracingPositionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TracingPositionViewController.h; sourceTree = "<group>"; };
+		95E6040A1F0F7E3F00142CC6 /* TracingPositionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TracingPositionViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		AE2DD27B3A1084D0B2667D56 /* libPods-WilddogLocationDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WilddogLocationDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D60609A9810DABEB99C07DA7 /* Pods-WilddogLocationDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WilddogLocationDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-WilddogLocationDemo/Pods-WilddogLocationDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E8EF148CB5B238B77960D4BC /* Pods-WilddogLocationDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WilddogLocationDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WilddogLocationDemoUITests/Pods-WilddogLocationDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F7C93D05938597AD16EEEA67 /* Pods-WilddogLocationDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WilddogLocationDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WilddogLocationDemoTests/Pods-WilddogLocationDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FEB6148DC8BB5B74FD954453 /* Pods-WilddogLocationDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WilddogLocationDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WilddogLocationDemoTests/Pods-WilddogLocationDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95E603C71F0F2D3700142CC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7F93A9EDEF4493BC940AE46 /* libPods-WilddogLocationDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95E603E01F0F2D3700142CC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				074D606F53A9C47527F1F26E /* libPods-WilddogLocationDemoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95E603EB1F0F2D3700142CC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88448018DD858859F06C6559 /* libPods-WilddogLocationDemoUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44E3694B05428DAC7AA7CFD0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6FECAECA05E7B529BBA2B44A /* Pods-WilddogLocationDemo.debug.xcconfig */,
+				D60609A9810DABEB99C07DA7 /* Pods-WilddogLocationDemo.release.xcconfig */,
+				F7C93D05938597AD16EEEA67 /* Pods-WilddogLocationDemoTests.debug.xcconfig */,
+				FEB6148DC8BB5B74FD954453 /* Pods-WilddogLocationDemoTests.release.xcconfig */,
+				E8EF148CB5B238B77960D4BC /* Pods-WilddogLocationDemoUITests.debug.xcconfig */,
+				22D56E843824621DDFD92210 /* Pods-WilddogLocationDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9294A2F120AC025802B7EF6B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32C782783074C50ED0EF5E7B /* libPods-WilddogLocationDemo.a */,
+				AE2DD27B3A1084D0B2667D56 /* libPods-WilddogLocationDemoTests.a */,
+				579ED124417786DB4F843E68 /* libPods-WilddogLocationDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9518F0551F137D6500B15ADD /* 说明页 */ = {
+			isa = PBXGroup;
+			children = (
+				9518F0561F137D8300B15ADD /* InfoViewController.h */,
+				9518F0571F137D8300B15ADD /* InfoViewController.m */,
+			);
+			name = "说明页";
+			sourceTree = "<group>";
+		};
+		954A698F1F13339400A5DCA9 /* 实时轨迹 */ = {
+			isa = PBXGroup;
+			children = (
+				954A69901F1333BC00A5DCA9 /* RecordingPathViewController.h */,
+				954A69911F1333BC00A5DCA9 /* RecordingPathViewController.m */,
+			);
+			name = "实时轨迹";
+			sourceTree = "<group>";
+		};
+		954A69931F133CF600A5DCA9 /* 范围监听 */ = {
+			isa = PBXGroup;
+			children = (
+				954A69941F133D1300A5DCA9 /* CircleQueryViewController.h */,
+				954A69951F133D1300A5DCA9 /* CircleQueryViewController.m */,
+				954A69971F133E4F00A5DCA9 /* DEMOListView.h */,
+				954A69981F133E4F00A5DCA9 /* DEMOListView.m */,
+			);
+			name = "范围监听";
+			sourceTree = "<group>";
+		};
+		95E603C11F0F2D3700142CC6 = {
+			isa = PBXGroup;
+			children = (
+				95E603CC1F0F2D3700142CC6 /* WilddogLocationDemo */,
+				95E603E61F0F2D3700142CC6 /* WilddogLocationDemoTests */,
+				95E603F11F0F2D3700142CC6 /* WilddogLocationDemoUITests */,
+				95E603CB1F0F2D3700142CC6 /* Products */,
+				44E3694B05428DAC7AA7CFD0 /* Pods */,
+				9294A2F120AC025802B7EF6B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		95E603CB1F0F2D3700142CC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95E603CA1F0F2D3700142CC6 /* WilddogLocationDemo.app */,
+				95E603E31F0F2D3700142CC6 /* WilddogLocationDemoTests.xctest */,
+				95E603EE1F0F2D3700142CC6 /* WilddogLocationDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95E603CC1F0F2D3700142CC6 /* WilddogLocationDemo */ = {
+			isa = PBXGroup;
+			children = (
+				95E604001F0F315F00142CC6 /* PrefixHeader.pch */,
+				95E603D01F0F2D3700142CC6 /* AppDelegate.h */,
+				95E603D11F0F2D3700142CC6 /* AppDelegate.m */,
+				95E603D31F0F2D3700142CC6 /* ViewController.h */,
+				95E603D41F0F2D3700142CC6 /* ViewController.m */,
+				954A698A1F0F7F5700A5DCA9 /* SDKManager.h */,
+				954A698B1F0F7F5700A5DCA9 /* SDKManager.m */,
+				954A698D1F132ABD00A5DCA9 /* Assets.xcassets */,
+				9518F0591F14BB8A00B15ADD /* WDButton.h */,
+				9518F05A1F14BB8A00B15ADD /* WDButton.m */,
+				95E604041F0F3C5000142CC6 /* 选择功能 */,
+				95E604081F0F7E1600142CC6 /* 位置同步 */,
+				954A698F1F13339400A5DCA9 /* 实时轨迹 */,
+				954A69931F133CF600A5DCA9 /* 范围监听 */,
+				9518F0551F137D6500B15ADD /* 说明页 */,
+				95E603D61F0F2D3700142CC6 /* Main.storyboard */,
+				95E603DB1F0F2D3700142CC6 /* LaunchScreen.storyboard */,
+				95E603DE1F0F2D3700142CC6 /* Info.plist */,
+				95E603CD1F0F2D3700142CC6 /* Supporting Files */,
+			);
+			path = WilddogLocationDemo;
+			sourceTree = "<group>";
+		};
+		95E603CD1F0F2D3700142CC6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9518F05C1F14C4D200B15ADD /* Reachability.h */,
+				9518F05D1F14C4D200B15ADD /* Reachability.m */,
+				95E603CE1F0F2D3700142CC6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		95E603E61F0F2D3700142CC6 /* WilddogLocationDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				95E603E71F0F2D3700142CC6 /* WilddogLocationDemoTests.m */,
+				95E603E91F0F2D3700142CC6 /* Info.plist */,
+			);
+			path = WilddogLocationDemoTests;
+			sourceTree = "<group>";
+		};
+		95E603F11F0F2D3700142CC6 /* WilddogLocationDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				95E603F21F0F2D3700142CC6 /* WilddogLocationDemoUITests.m */,
+				95E603F41F0F2D3700142CC6 /* Info.plist */,
+			);
+			path = WilddogLocationDemoUITests;
+			sourceTree = "<group>";
+		};
+		95E604041F0F3C5000142CC6 /* 选择功能 */ = {
+			isa = PBXGroup;
+			children = (
+				95E604011F0F392B00142CC6 /* ChooseFunctionViewController.h */,
+				95E604021F0F392B00142CC6 /* ChooseFunctionViewController.m */,
+				95E604051F0F3C9500142CC6 /* ChooseFunction_BTN.h */,
+				95E604061F0F3C9500142CC6 /* ChooseFunction_BTN.m */,
+			);
+			name = "选择功能";
+			sourceTree = "<group>";
+		};
+		95E604081F0F7E1600142CC6 /* 位置同步 */ = {
+			isa = PBXGroup;
+			children = (
+				95E604091F0F7E3F00142CC6 /* TracingPositionViewController.h */,
+				95E6040A1F0F7E3F00142CC6 /* TracingPositionViewController.m */,
+			);
+			name = "位置同步";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95E603C91F0F2D3700142CC6 /* WilddogLocationDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95E603F71F0F2D3700142CC6 /* Build configuration list for PBXNativeTarget "WilddogLocationDemo" */;
+			buildPhases = (
+				AB12C3F6B400EF07536F4DC1 /* [CP] Check Pods Manifest.lock */,
+				95E603C61F0F2D3700142CC6 /* Sources */,
+				95E603C71F0F2D3700142CC6 /* Frameworks */,
+				95E603C81F0F2D3700142CC6 /* Resources */,
+				0FF2E915537AA411D8C41624 /* [CP] Embed Pods Frameworks */,
+				5573A1660F2CF0AEF9063EBA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WilddogLocationDemo;
+			productName = WilddogLocationDemo;
+			productReference = 95E603CA1F0F2D3700142CC6 /* WilddogLocationDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		95E603E21F0F2D3700142CC6 /* WilddogLocationDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95E603FA1F0F2D3700142CC6 /* Build configuration list for PBXNativeTarget "WilddogLocationDemoTests" */;
+			buildPhases = (
+				8F021547AA575D49A07C5E2C /* [CP] Check Pods Manifest.lock */,
+				95E603DF1F0F2D3700142CC6 /* Sources */,
+				95E603E01F0F2D3700142CC6 /* Frameworks */,
+				95E603E11F0F2D3700142CC6 /* Resources */,
+				6D7952EB97778DFBD0F80821 /* [CP] Embed Pods Frameworks */,
+				9C45DABF03A8F24C32455A36 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95E603E51F0F2D3700142CC6 /* PBXTargetDependency */,
+			);
+			name = WilddogLocationDemoTests;
+			productName = WilddogLocationDemoTests;
+			productReference = 95E603E31F0F2D3700142CC6 /* WilddogLocationDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		95E603ED1F0F2D3700142CC6 /* WilddogLocationDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95E603FD1F0F2D3700142CC6 /* Build configuration list for PBXNativeTarget "WilddogLocationDemoUITests" */;
+			buildPhases = (
+				89846B7D01BA9CA5575A830B /* [CP] Check Pods Manifest.lock */,
+				95E603EA1F0F2D3700142CC6 /* Sources */,
+				95E603EB1F0F2D3700142CC6 /* Frameworks */,
+				95E603EC1F0F2D3700142CC6 /* Resources */,
+				28330635DE087AAAF78B6FDD /* [CP] Embed Pods Frameworks */,
+				A006EFBDF463FB623C39DEAD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95E603F01F0F2D3700142CC6 /* PBXTargetDependency */,
+			);
+			name = WilddogLocationDemoUITests;
+			productName = WilddogLocationDemoUITests;
+			productReference = 95E603EE1F0F2D3700142CC6 /* WilddogLocationDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95E603C21F0F2D3700142CC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = wilddog;
+				TargetAttributes = {
+					95E603C91F0F2D3700142CC6 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = HB5ZT37Y6R;
+						ProvisioningStyle = Automatic;
+					};
+					95E603E21F0F2D3700142CC6 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = CKAC5QB95T;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 95E603C91F0F2D3700142CC6;
+					};
+					95E603ED1F0F2D3700142CC6 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = CKAC5QB95T;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 95E603C91F0F2D3700142CC6;
+					};
+				};
+			};
+			buildConfigurationList = 95E603C51F0F2D3700142CC6 /* Build configuration list for PBXProject "WilddogLocationDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95E603C11F0F2D3700142CC6;
+			productRefGroup = 95E603CB1F0F2D3700142CC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95E603C91F0F2D3700142CC6 /* WilddogLocationDemo */,
+				95E603E21F0F2D3700142CC6 /* WilddogLocationDemoTests */,
+				95E603ED1F0F2D3700142CC6 /* WilddogLocationDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95E603C81F0F2D3700142CC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95E603DD1F0F2D3700142CC6 /* LaunchScreen.storyboard in Resources */,
+				954A698E1F132ABD00A5DCA9 /* Assets.xcassets in Resources */,
+				95E603D81F0F2D3700142CC6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95E603E11F0F2D3700142CC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95E603EC1F0F2D3700142CC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0FF2E915537AA411D8C41624 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WilddogLocationDemo/Pods-WilddogLocationDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		28330635DE087AAAF78B6FDD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WilddogLocationDemoUITests/Pods-WilddogLocationDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5573A1660F2CF0AEF9063EBA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WilddogLocationDemo/Pods-WilddogLocationDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D7952EB97778DFBD0F80821 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WilddogLocationDemoTests/Pods-WilddogLocationDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89846B7D01BA9CA5575A830B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8F021547AA575D49A07C5E2C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9C45DABF03A8F24C32455A36 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WilddogLocationDemoTests/Pods-WilddogLocationDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A006EFBDF463FB623C39DEAD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WilddogLocationDemoUITests/Pods-WilddogLocationDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB12C3F6B400EF07536F4DC1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95E603C61F0F2D3700142CC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9518F05E1F14C4D200B15ADD /* Reachability.m in Sources */,
+				954A69961F133D1300A5DCA9 /* CircleQueryViewController.m in Sources */,
+				95E603D51F0F2D3700142CC6 /* ViewController.m in Sources */,
+				9518F0581F137D8300B15ADD /* InfoViewController.m in Sources */,
+				954A69921F1333BC00A5DCA9 /* RecordingPathViewController.m in Sources */,
+				954A698C1F0F7F5700A5DCA9 /* SDKManager.m in Sources */,
+				95E603D21F0F2D3700142CC6 /* AppDelegate.m in Sources */,
+				95E603CF1F0F2D3700142CC6 /* main.m in Sources */,
+				95E604031F0F392B00142CC6 /* ChooseFunctionViewController.m in Sources */,
+				9518F05B1F14BB8A00B15ADD /* WDButton.m in Sources */,
+				95E6040B1F0F7E3F00142CC6 /* TracingPositionViewController.m in Sources */,
+				95E604071F0F3C9500142CC6 /* ChooseFunction_BTN.m in Sources */,
+				954A69991F133E4F00A5DCA9 /* DEMOListView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95E603DF1F0F2D3700142CC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95E603E81F0F2D3700142CC6 /* WilddogLocationDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95E603EA1F0F2D3700142CC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95E603F31F0F2D3700142CC6 /* WilddogLocationDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95E603E51F0F2D3700142CC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95E603C91F0F2D3700142CC6 /* WilddogLocationDemo */;
+			targetProxy = 95E603E41F0F2D3700142CC6 /* PBXContainerItemProxy */;
+		};
+		95E603F01F0F2D3700142CC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95E603C91F0F2D3700142CC6 /* WilddogLocationDemo */;
+			targetProxy = 95E603EF1F0F2D3700142CC6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		95E603D61F0F2D3700142CC6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95E603D71F0F2D3700142CC6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		95E603DB1F0F2D3700142CC6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95E603DC1F0F2D3700142CC6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95E603F51F0F2D3700142CC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		95E603F61F0F2D3700142CC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95E603F81F0F2D3700142CC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FECAECA05E7B529BBA2B44A /* Pods-WilddogLocationDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HB5ZT37Y6R;
+				GCC_PREFIX_HEADER = WilddogLocationDemo/PrefixHeader.pch;
+				INFOPLIST_FILE = WilddogLocationDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wilddog..WilddogLocationDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		95E603F91F0F2D3700142CC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D60609A9810DABEB99C07DA7 /* Pods-WilddogLocationDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HB5ZT37Y6R;
+				GCC_PREFIX_HEADER = WilddogLocationDemo/PrefixHeader.pch;
+				INFOPLIST_FILE = WilddogLocationDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wilddog..WilddogLocationDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		95E603FB1F0F2D3700142CC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7C93D05938597AD16EEEA67 /* Pods-WilddogLocationDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = CKAC5QB95T;
+				INFOPLIST_FILE = WilddogLocationDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wilddog..WilddogLocationDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WilddogLocationDemo.app/WilddogLocationDemo";
+			};
+			name = Debug;
+		};
+		95E603FC1F0F2D3700142CC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEB6148DC8BB5B74FD954453 /* Pods-WilddogLocationDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = CKAC5QB95T;
+				INFOPLIST_FILE = WilddogLocationDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wilddog..WilddogLocationDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WilddogLocationDemo.app/WilddogLocationDemo";
+			};
+			name = Release;
+		};
+		95E603FE1F0F2D3700142CC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8EF148CB5B238B77960D4BC /* Pods-WilddogLocationDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = CKAC5QB95T;
+				INFOPLIST_FILE = WilddogLocationDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wilddog..WilddogLocationDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WilddogLocationDemo;
+			};
+			name = Debug;
+		};
+		95E603FF1F0F2D3700142CC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22D56E843824621DDFD92210 /* Pods-WilddogLocationDemoUITests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = CKAC5QB95T;
+				INFOPLIST_FILE = WilddogLocationDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wilddog..WilddogLocationDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WilddogLocationDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95E603C51F0F2D3700142CC6 /* Build configuration list for PBXProject "WilddogLocationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95E603F51F0F2D3700142CC6 /* Debug */,
+				95E603F61F0F2D3700142CC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95E603F71F0F2D3700142CC6 /* Build configuration list for PBXNativeTarget "WilddogLocationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95E603F81F0F2D3700142CC6 /* Debug */,
+				95E603F91F0F2D3700142CC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95E603FA1F0F2D3700142CC6 /* Build configuration list for PBXNativeTarget "WilddogLocationDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95E603FB1F0F2D3700142CC6 /* Debug */,
+				95E603FC1F0F2D3700142CC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95E603FD1F0F2D3700142CC6 /* Build configuration list for PBXNativeTarget "WilddogLocationDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95E603FE1F0F2D3700142CC6 /* Debug */,
+				95E603FF1F0F2D3700142CC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95E603C21F0F2D3700142CC6 /* Project object */;
+}
