@@ -184,14 +184,21 @@
             weakSelf.circleQuery = [[SDKManager defaultManager].locationService circleQueryAtPosition:centerPosition
                                                                                        withRadius:1];
             //开始监听
-            [weakSelf StartObserveWithCircleQuery:self.circleQuery];
+            [weakSelf StartObserveWithCircleQuery:weakSelf.circleQuery];
             
         }else{
-            //刷新了位置，更新一下地图上的显示
-            NSLog(@"----------");
-            NSLog(@"%f",selfLocation.latitude);
-            NSLog(@"%f",selfLocation.longitude);
+            //刷新了位置，更新一下地图上的显示，刷新范围
+            
+            //自己的点
             [weakSelf moveAnnotation:weakSelf.pointAnnotation toLocation:selfLocation];
+            
+            //新查询范围
+            CLLocation *newCenter = [[CLLocation alloc]initWithLatitude:selfLocation.latitude
+                                                              longitude:selfLocation.longitude];
+            weakSelf.circleQuery.center = newCenter;
+            
+            //显示的圆圈
+            [weakSelf.circle setCircleWithCenterCoordinate:selfLocation radius:1000];
         }
         }
     }];

@@ -176,11 +176,13 @@
                     commonPolylineCoords[i].longitude = location.longitude;
                 }
                 if(self.Polyline){
-                    [self.mapView removeOverlay:self.Polyline];
+                    [self.Polyline setPolylineWithCoordinates:commonPolylineCoords
+                                                        count:snapshot.points.count];
+                }else{
+                    self.Polyline = [MAPolyline polylineWithCoordinates:commonPolylineCoords
+                                                                  count:snapshot.points.count];
+                    [self.mapView addOverlay:self.Polyline];
                 }
-                self.Polyline = [MAPolyline polylineWithCoordinates:commonPolylineCoords
-                                                              count:snapshot.points.count];
-                [self.mapView addOverlay:self.Polyline];
                 
                 //刷新顶部显示的信息
                 NSDateFormatter *formater = [NSDateFormatter new];
