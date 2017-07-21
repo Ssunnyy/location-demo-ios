@@ -49,22 +49,6 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (void)observeSingleEventWithBlock:(void (^)(WDGPathSnapshot *snapshot))block;
 
-
-/**
- 分页查询测试API，请使用`observeWithBlock:`代替。
-
- @param block 查询操作的回调。
- */
-- (void)observeOnceWithBlock:(void (^)(WDGPathSnapshot *snapshot))block;
-
-/**
- 分页查询测试API，请使用`observeSingleEventWithBlock:`代替。
-
- @param block 查询操作的回调。
- */
-- (WilddogHandle)observeContinuouslyWithBlock:(void (^)(WDGPathSnapshot *snapshot))block;
-
-
 /**
  取消当前查询上的指定监听。
 

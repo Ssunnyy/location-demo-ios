@@ -4,25 +4,25 @@ PODS:
   - AMapFoundation (1.4.1)
   - AMapLocation (2.4.0):
     - AMapFoundation (~> 1.4)
-  - WilddogCore (2.0.9)
-  - WilddogLocation (0.3.1):
+  - WilddogCore (2.0.11)
+  - WilddogLocation (0.3.3):
     - AMapLocation
     - WilddogSync
-  - WilddogSync (2.3.5):
+  - WilddogSync (2.3.7):
     - WilddogCore (~> 2.0.8)
 
 DEPENDENCIES:
   - AMap3DMap
-  - WilddogLocation (= 0.3.1)
+  - WilddogLocation
 
 SPEC CHECKSUMS:
   AMap3DMap: 704b527db86c1f12d71a15230f86e24b6e8ca21f
   AMapFoundation: d8ae05582f4ca8dc5b97bab7f864ed6f34a9ed02
   AMapLocation: 47b62b5381a66e4d0c2931b70ffde72682427896
-  WilddogCore: d88b5f1680b14c5bb0a9a1d63ebab45479fc31d9
-  WilddogLocation: b527b48abd1d1139df609738c074d7dc47d4456a
-  WilddogSync: c9d0a2d1378741be81b792b516784c31fcd8304a
+  WilddogCore: 0bad3fa1c99e58961f260f790bcafd5a0a86ab50
+  WilddogLocation: 9b6435d9d6201019f72e28abbf47f369dcdb093a
+  WilddogSync: d5d70cef22e14090f4ef8514c0412f501ec3b03c
 
-PODFILE CHECKSUM: e4c0628d8a82bebaa8ec2c18c49ea9ab58830454
+PODFILE CHECKSUM: 85e98042f60e4323f01170c6d6e157e2965d804f
 
 COCOAPODS: 1.2.0

@@ -57,6 +57,8 @@
     
     //检查权限
     [self AlertPrivacyIfNeed];
+    
+    self.mapView.delegate = self;
 }
 
 -(void)viewDidDisappear:(BOOL)animated{

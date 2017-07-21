@@ -7,7 +7,7 @@ target 'WilddogLocationDemo' do
 
   # Pods for WilddogLocationDemo
 
-  pod 'WilddogLocation','0.3.1'
+  pod 'WilddogLocation'
   pod 'AMap3DMap'
 
   target 'WilddogLocationDemoTests' do

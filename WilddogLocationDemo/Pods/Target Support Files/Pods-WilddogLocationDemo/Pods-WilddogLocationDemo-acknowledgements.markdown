@@ -16,10 +16,6 @@ Copyright © 2014 AutoNavi. All Rights Reserved.
 Copyright © 2014 AutoNavi. All Rights Reserved.
 
 
-## WilddogCore
-
-Copyright 2016 Wilddog
-
 ## WilddogLocation
 
 Copyright 2017 Wilddog

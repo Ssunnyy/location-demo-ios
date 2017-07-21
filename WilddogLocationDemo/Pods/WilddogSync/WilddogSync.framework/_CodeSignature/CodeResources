@@ -6,47 +6,47 @@
 	<dict>
 		<key>Headers/WDGDataEventType.h</key>
 		<data>
-		uUDvkJgs+IXOG/hH774XZpz68RQ=
+		qLwzd6LvIQ5DkqMj3YDG9QD39qk=
 		</data>
 		<key>Headers/WDGDataSnapshot.h</key>
 		<data>
-		miPydIbeMhrdL+T0TWc2+jbW2no=
+		vEPpVcqzvLY/vPcod9GVlZuPh9g=
 		</data>
 		<key>Headers/WDGMutableData.h</key>
 		<data>
-		/VhNACmL9AjBXvhdXqgGqTtK+04=
+		NjVl3rtZ+m2Da300GeFazgnydTc=
 		</data>
 		<key>Headers/WDGServerValue.h</key>
 		<data>
-		hS/bSnFPkh7+vH9tLkN8PPww+3s=
+		zPPPsNsSh96mtosHXNNYrcxaNa0=
 		</data>
 		<key>Headers/WDGSync.h</key>
 		<data>
-		50iirrMPDOjKWQOBP6Heynl/Olo=
+		qSU8zq+BKV+i4hgbt+4hWGcdHg4=
 		</data>
 		<key>Headers/WDGSyncErrors.h</key>
 		<data>
-		9NNIC2p2T4W+/PXbWTIcnqZtOT0=
+		wYJMJqZwQB/VGrAKhjNGIXoEYjo=
 		</data>
 		<key>Headers/WDGSyncQuery.h</key>
 		<data>
-		DjyzLDxYbeyv22H/6B3O4Cru4IM=
+		ylK+nGH4D1UXv4q6pJKglw7q2DM=
 		</data>
 		<key>Headers/WDGSyncReference.h</key>
 		<data>
-		qWHVWeuEE7YiH5dWtTZKUuPzKac=
+		/Kv0r7U/nX96mD8f/mTK+ieGPko=
 		</data>
 		<key>Headers/WDGTransactionResult.h</key>
 		<data>
-		nHpf1PI9rDguPaANScms+Faq/EU=
+		GKfQvI6hhsMxWKOmNmu8dQIZMY8=
 		</data>
 		<key>Headers/WilddogSync.h</key>
 		<data>
-		deIhCafm2BD9Aac4+sJGyIvFvPo=
+		/x9TXOApI9I2UO+nu1P++ktAitE=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		qMeO+KHTIBZNcX9NKO5pT+a3sH8=
+		FF285I5s3SORAe38MNyfj1BD3x4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -59,110 +59,110 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			uUDvkJgs+IXOG/hH774XZpz68RQ=
+			qLwzd6LvIQ5DkqMj3YDG9QD39qk=
 			</data>
 			<key>hash2</key>
 			<data>
-			QpwXC7av4ccdfcv92sIOJjA+dQMFU61GndxNleZgpvY=
+			6RpGAQAlotczmC7KR6lhlM98HtRRgffns3moL5RiQHE=
 			</data>
 		</dict>
 		<key>Headers/WDGDataSnapshot.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			miPydIbeMhrdL+T0TWc2+jbW2no=
+			vEPpVcqzvLY/vPcod9GVlZuPh9g=
 			</data>
 			<key>hash2</key>
 			<data>
-			bJVphENQcMWnHOriGs0g5RDHx+HoJu9fidfMiHsn7sM=
+			4G2uAjVydaRwoGF2xLlGGuKWun+jCpbmd84vHvgh7zI=
 			</data>
 		</dict>
 		<key>Headers/WDGMutableData.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/VhNACmL9AjBXvhdXqgGqTtK+04=
+			NjVl3rtZ+m2Da300GeFazgnydTc=
 			</data>
 			<key>hash2</key>
 			<data>
-			cp3HmKnoOSB2PhkFz4kXpDBfHw4ovVEr43bnS1cU6VI=
+			n1CgPwpB774FQsVBwk9QuivfrQidUpeAH2Cd0SczXoM=
 			</data>
 		</dict>
 		<key>Headers/WDGServerValue.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			hS/bSnFPkh7+vH9tLkN8PPww+3s=
+			zPPPsNsSh96mtosHXNNYrcxaNa0=
 			</data>
 			<key>hash2</key>
 			<data>
-			/YbX8yxzm6H2UkljZUE/HB4Pl3HkmWlvVk5dA04B4Oo=
+			OeDQ3j5/6t3qp0QzzTW1/mySQHPX2vDw5uiQKkjazzY=
 			</data>
 		</dict>
 		<key>Headers/WDGSync.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			50iirrMPDOjKWQOBP6Heynl/Olo=
+			qSU8zq+BKV+i4hgbt+4hWGcdHg4=
 			</data>
 			<key>hash2</key>
 			<data>
-			xq358xbtlKmR0tEErABjWoRnIWf/Vq5pm+pQZXl0xdw=
+			tno7pv79uN4BnTBQiYn9kKAi6nnCEVp2sdyPB1aJxtc=
 			</data>
 		</dict>
 		<key>Headers/WDGSyncErrors.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			9NNIC2p2T4W+/PXbWTIcnqZtOT0=
+			wYJMJqZwQB/VGrAKhjNGIXoEYjo=
 			</data>
 			<key>hash2</key>
 			<data>
-			iWQAbivNadZbBFHT0a0x6HlZ7eIbQvLpn+VA0meUZRI=
+			tE+IqgB1kL2aOhVuckv+ilhaVaXFDQOL2h1EsU81V0U=
 			</data>
 		</dict>
 		<key>Headers/WDGSyncQuery.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			DjyzLDxYbeyv22H/6B3O4Cru4IM=
+			ylK+nGH4D1UXv4q6pJKglw7q2DM=
 			</data>
 			<key>hash2</key>
 			<data>
-			JM4EN6KSwoh6+RbGvpJ6m4EOwpZtHROz66ubfxGcCPQ=
+			u/pnYVo4xUypmONNIII6sEewmEm1vvnoZQU3pzB0djg=
 			</data>
 		</dict>
 		<key>Headers/WDGSyncReference.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qWHVWeuEE7YiH5dWtTZKUuPzKac=
+			/Kv0r7U/nX96mD8f/mTK+ieGPko=
 			</data>
 			<key>hash2</key>
 			<data>
-			PtyoVMA14r1zrpql3En//xVR/LKomu9+ehyoSyH5V8c=
+			rZYiNNtmzKj+EUpVS+gbsFGCOUFagoEjIPc/rD4oym0=
 			</data>
 		</dict>
 		<key>Headers/WDGTransactionResult.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			nHpf1PI9rDguPaANScms+Faq/EU=
+			GKfQvI6hhsMxWKOmNmu8dQIZMY8=
 			</data>
 			<key>hash2</key>
 			<data>
-			6ugeLLbAniUeVuK9z0nNDhgn95tvP4DP58wHlEsxYcY=
+			yzgAndzjL2kXnHgxKotCkds6pXysAC+RxNacDwrDOCE=
 			</data>
 		</dict>
 		<key>Headers/WilddogSync.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			deIhCafm2BD9Aac4+sJGyIvFvPo=
+			/x9TXOApI9I2UO+nu1P++ktAitE=
 			</data>
 			<key>hash2</key>
 			<data>
-			FpLD4LDCwGTdjC+0z4mQqzemP1podi2W6ukoAQVjOCw=
+			csA8IqK/CmlKeLM2Nw9qJJk8j3nmv3ygU4bQ27E2k/c=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

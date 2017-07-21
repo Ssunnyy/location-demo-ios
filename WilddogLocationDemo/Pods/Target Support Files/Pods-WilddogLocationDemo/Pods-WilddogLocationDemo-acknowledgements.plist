@@ -47,16 +47,6 @@
 		</dict>
 		<dict>
 			<key>FooterText</key>
-			<string>Copyright 2016 Wilddog</string>
-			<key>License</key>
-			<string>Copyright</string>
-			<key>Title</key>
-			<string>WilddogCore</string>
-			<key>Type</key>
-			<string>PSGroupSpecifier</string>
-		</dict>
-		<dict>
-			<key>FooterText</key>
 			<string>Copyright 2017 Wilddog</string>
 			<key>License</key>
 			<string>Copyright</string>
